@@ -1,0 +1,61 @@
+336591198
+2B9ABAFC33B14163
+
+sistema de Consulta
+
+   Data =  11/2018 =  senhasegura ;
+   Data =  12/2018 =  ultimomes ;
+   Data =  01/2019 =  melhor2019 ;
+   Data =  02/2019 =  viagemmarcada ;
+   Data =  03/2019 =  vidanova ;
+   Data =  04/2019 =  saudadeeterna ;
+   Data =  05/2019 =  sempreposivito ;
+   Data =  06/2019 =  trabalhoserio ;
+   Data =  07/2019 =  vidaquesegue ;
+   Data =  08/2019 =  sistemaconsulta ;
+   Data =  09/2019 =  mesdaschuvas ;
+   Data =  10/2019 =  oktoberfest ;
+   Data =  11/2019 =  veraochegando ;
+   Data =  12/2019 =  umfeliznatal ;
+   Data =  01/2020 =  macaco ;
+   Data =  02/2020 =  amarelo ;
+   Data =  03/2020 =  maisummes ;
+   Data =  04/2020 =  padradeservico ;
+   Data =  05/2020 =  controle ;
+   Data =  06/2020 =  automacao ;
+   Data =  07/2020 =  vidalouca ;
+   Data =  08/2020 =  ummespromissor ;
+   Data =  09/2020 =  falta3meses ;
+   Data =  10/2020 =  leaomarinho ;
+   Data =  11/2020 =  superfast ;
+   Data =  12/2020 =  precisadenovaversao ;
+
+
+Novo
+     ahjSenhaSistema := 'senhasegura';
+  if (aDat = '12/2018') then
+     ahjSenhaSistema := 'ultimomes';
+  if (aDat = '01/2021')= '125457725468';
+  if (aDat = '02/2021')= '854652546585';
+  if (aDat = '03/2021')= '531354647854';
+  if (aDat = '04/2021')= '5453187968774';
+  if (aDat = '05/2021')= '52464686462154';
+  if (aDat = '06/2021')= '52454758965854';
+  if (aDat = '07/2021')= '1236548758953';
+  if (aDat = '08/2021')= '2313545565824';
+  if (aDat = '09/2021')= '3212655874584';
+  if (aDat = '10/2021')= '3254215484566';
+  if (aDat = '11/2021')= '2541258795426';
+  if (aDat = '12/2019')= 'umfeliznatal';
+  if (aDat = '01/2020')= '89546865215487';
+  if (aDat = '02/2020')= '65487546525455';
+  if (aDat = '03/2020')= '3245684315468548';
+  if (aDat = '04/2020')= '3221564846548125';
+  if (aDat = '05/2020')= '2354567135784414';
+  if (aDat = '06/2020')= '85746486464648321';
+  if (aDat = '07/2020')= '32546244915545';
+  if (aDat = '08/2020')= '534678434546548';
+  if (aDat = '09/2020')= '6546879845648';
+  if (aDat = '10/2020')= '966325874655';
+  if (aDat = '11/2020')= '55244988885468';
+  if (aDat = '12/2020')= '64623546879488';
