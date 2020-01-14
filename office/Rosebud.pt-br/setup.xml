@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=mkXLKnOs3F+2N+x5E4dEZaRJDqVlnpdjA9bGCGBZclkGKznjy67rcfFd3feFbqpNsomuw7NUDKtvgOYh9FoWm447mGjnLPgF8wiMCqqURU0Ehulu3vNgnoI6S8EqTraC3B0e13rQ9usjOMFHck/oTeivdnbKe3ctmPzFSLaQR0s=-->
+<Setup Id="Rosebud.pt-br" Type="AddOn" Keyword="RosebudMUI" Culture="pt-br">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="RosebudMSIFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<PackageRef Path="RosebudMUI.xml"/>
+	<LocalCache DownloadCode="{90140000-0010-0416-0000-0000000FF1CE}" SkuComponentDirectory="Rosebud.pt-br">
+		<File Id="RosebudMUI.xml" MD5="8FC140B4D11E756F7E30C790CFBFF123" Size="809" RelativeCachePath="RosebudMUI.xml" RelativeSourcePath="RosebudMUI.xml"/>
+		<File Id="RosebudMUI.msi" MD5="B7F40D76C0B0B3F1EC90A3E2388A82D3" Size="50688" RelativeCachePath="RosebudMUI.msi" RelativeSourcePath="RosebudMUI.msi"/>
+		<File Id="RbudLR.cab" MD5="10D5F533A6C8337332599C3C55DF0C86" Size="1564931" RelativeCachePath="RbudLR.cab" RelativeSourcePath="RbudLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

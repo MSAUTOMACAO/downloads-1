@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=j114qS84SDwQOqFAbhFi5Oj0Vl+g/9FrJoHHsIBMWV93FCsY2SHbeT976I154bNUedbrq9wUeFjzlQ1msXP0vb+8rH4nIzifEOaaTgn4SHKOZpuX7C2C7SRYmQQ0SPJOZBTRjawDmSL+h4HdStUKGUSAjE/VhDkJf/XXnadaySs=-->
+<Setup Id="InfoPath.pt-br" Type="AddOn" Keyword="InfoPathMUI" Culture="pt-br">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="XDOCSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="XDocs_PIA" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no" PreReq="NetFW20;No12VSTA">
+				<Option Id="VSTAIDEFiles" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" PreReq="NetFW20;No12VSTA"/>
+			</Option>
+			<Option Id="XDOCSHelpFiles" DefaultState="FollowParent" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+		</Option>
+	</Option>
+	<PackageRef Path="InfoPathMUI.xml"/>
+	<LocalCache DownloadCode="{90140000-0044-0416-0000-0000000FF1CE}" SkuComponentDirectory="InfoPath.pt-br">
+		<File Id="InfoPathMUI.xml" MD5="9EB77591269A1CF80148EE81A5E534B0" Size="1231" RelativeCachePath="InfoPathMUI.xml" RelativeSourcePath="InfoPathMUI.xml"/>
+		<File Id="InfoPathMUI.msi" MD5="A0C73D1324B943AE1C851CAF320AB1F4" Size="2418176" RelativeCachePath="InfoPathMUI.msi" RelativeSourcePath="InfoPathMUI.msi"/>
+		<File Id="InfLR.cab" MD5="6C51E7FBB266FF7ED7E6E92645324DF0" Size="16327123" RelativeCachePath="InfLR.cab" RelativeSourcePath="InfLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>

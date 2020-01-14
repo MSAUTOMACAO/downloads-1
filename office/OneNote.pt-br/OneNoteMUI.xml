@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=ThRyB9lC9x+mydsP1gVB9qSGgIrPJX5jvOH3SHKcDkj860TL4sTOrxUTjMMKCROHHgiOt1lWJar26tL8EPEoyn5zq4E5oej54+Pyqm4jUBf5jQCQlFudZxEsj0XkXVqTf3RkhXyxFivKszbqqE/07smdUGfF6PpPQrG1sccxvRg=-->
+<Package Id="OneNoteMUI.pt-br" Type="MSI" Path="OneNoteMUI.MSI" Version="1.0" ProductCode="{90140000-00A1-0416-0000-0000000FF1CE}" MSIVersion="14.0.4763.1000" Platform="x86">
+	<Feature Id="OneNoteFilesIntl_1046" Cost="3613608">
+		<OptionRef Id="OneNoteFiles"/>
+	</Feature>
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1046" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="OneNoteToLinkedNotesIEAddinIntl_1046" Cost="0">
+		<OptionRef Id="OneNoteToLinkedNotesIntl"/>
+	</Feature>
+	<Feature Id="OneNoteToLinkedNotesPPTAddinIntl_1046" Cost="0">
+		<OptionRef Id="OneNoteToLinkedNotesIntl"/>
+	</Feature>
+	<Feature Id="OneNoteHelpFilesIntl_1046" Cost="2376637">
+		<OptionRef Id="OneNoteHelpFiles"/>
+	</Feature>
+	<Feature Id="OneNoteNonBootFilesIntl_1046" Cost="6791056">
+		<OptionRef Id="OneNoteFiles"/>
+	</Feature>
+	<Feature Id="OneNoteToLinkedNotesWordAddinIntl_1046" Cost="0">
+		<OptionRef Id="OneNoteToLinkedNotesIntl"/>
+	</Feature>
+	<Feature Id="OneNoteToIEAddinIntl_1046" Cost="0">
+		<OptionRef Id="OneNoteToIEAddin"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+</Package>

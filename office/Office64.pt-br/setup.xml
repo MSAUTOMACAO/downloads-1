@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=b8lbzFiFGO9dA9PV1Gd8sp/LYYSPbADUm3L5a5Fks+BtJavIXG9aO9RSlNLT9tpu/SLiQ8A9eupSZOPoGw7og4ftL6KtSkpp8hIebLHA39DozuGbuvkGBMEqMoh865BR46kVIe5jEi7fj4TZGH4OtplG5ot617sel6ss7UGDgnA=-->
+<Setup Id="Office64.pt-br" Type="AddOn" Keyword="Office64MUI" Culture="pt-br">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="GrooveFiles64Intl" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="GrooveFiles"/>
+		</Option>
+		<Option Id="OneNoteToLinkedNotesIntl" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="OneNoteFiles"/>
+		</Option>
+		<Option Id="Outlook64SearchShellRegIntl" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="OUTLOOKFiles"/>
+		</Option>
+		<Option Id="TOOLSFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+		<Option Id="VSTO64" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="yes" Hidden="yes">
+			<OptionDependency Lead="VSTO"/>
+		</Option>
+	</Option>
+	<PackageRef Path="Office64MUI.xml"/>
+	<LocalCache DownloadCode="{90140000-002A-0416-1000-0000000FF1CE}" SkuComponentDirectory="Office64.pt-br">
+		<File Id="Office64MUI.xml" MD5="5B91B2504F207C5FEB3BCA9737CD6314" Size="1576" RelativeCachePath="Office64MUI.xml" RelativeSourcePath="Office64MUI.xml"/>
+		<File Id="Office64MUI.msi" MD5="CD6DFCD0B48283F620B80E1113C6D0CD" Size="670208" RelativeCachePath="Office64MUI.msi" RelativeSourcePath="Office64MUI.msi"/>
+		<File Id="OWOW64LR.cab" MD5="ABF726B2A943FFEAAA2A6D6AB036C8B0" Size="1207143" RelativeCachePath="OWOW64LR.cab" RelativeSourcePath="OWOW64LR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>
